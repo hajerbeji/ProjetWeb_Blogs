@@ -1,0 +1,25 @@
+.App .navbar{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.847);
+    padding: 0 30px;
+    /* position: fixed;
+    z-index: 99;
+    height: 10vh;
+    width: 100%;
+    background-color: transparent; */
+    ul{
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+    }
+    li{
+        cursor: pointer;
+    }
+    li:hover{
+        color: coral;
+    }
+}
